@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Ym</string>
+
+    <!-- login  start -->
+    <string name="login_name_hint">邮箱</string>
+    <string name="login_pwd_hint">密码</string>
+    <string name="re_login_pwd_hint">确认密码</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册</string>
+    <string name="login_register_link">注册账号</string>
+    <string name="register_login_link">直接登录</string>
+
+    <!-- login  end -->
+
+    <!--left drawer start-->
+    <string name="fans">粉丝&#032;%1$d</string>
+    <string name="focus">关注&#032;%1$d</string>
+    <string name="no_email_tip">请先安装邮件应用并设置账户,或直接发送邮件至 yeming_1001@163.com</string>
+    <!--left drawer end-->
+
+    <!--exit action start-->
+    <string name="exit">&#032;&#032;&#032;&#032;退出&#032;&#032;&#032;&#032;</string>
+    <string name="cancel">&#032;&#032;&#032;&#032;取消&#032;&#032;&#032;&#032;</string>
+    <string name="remind">&#126;&#126;&#126;下次记得再回来&#126;&#126;&#126;</string>
+    <!--exit action end-->
+
+    <!--edit paopao start-->
+    <string name="edit_title">发泡泡</string>
+    <!--edit paopao end-->
+
+    <!--edit paopao_detail start-->
+    <string name="paopao_detail_title">泡泡</string>
+    <!--edit paopao_detail end-->
+    <string name="user_detail_title">用户</string>
+    <string name="edit_user_sign_title">编辑签名</string>
+    <string name="user_sign">签名&#032;&#058;</string>
+
+    <string name="saveing">正在保存...</string>
+    <string name="pushing">正在提交...</string>
+    <string name="loading">正在加载...</string>
+    <string name="releaseing">正在发布...</string>
+    <string name="locationing">正在定位...</string>
+
+    <string name="ensure_focus">关注</string>
+    <string name="cancle_focus">取消关注</string>
+
+    <string name="fans_list_title">粉丝</string>
+    <string name="focus_list_title">关注</string>
+    <string name="user_paopao_list_title">全部泡泡</string>
+    <string name="map_location_title">位置</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="pay_title">打赏</string>
+    <string name="pay_for_me_tip">如果觉得YmPaoPao对您有一丢丢用，请随意打赏。</string>
+    <string name="pay_for_me_tip1">联系：yeming_1001@163.com、Q:1953465463</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="camera_gallery">
+        <item>相机</item>
+        <item>图片</item>
+    </string-array>
+</resources>

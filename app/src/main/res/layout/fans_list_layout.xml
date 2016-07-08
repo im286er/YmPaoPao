@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE5E5E5"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/actionbar_bg"
+        >
+
+        <LinearLayout
+            android:id="@+id/list_title"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:background="@drawable/fans_list_title_bg"
+            >
+            <RelativeLayout
+                android:id="@+id/fans_but_lay"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/fans_list_title_item_bg"
+                >
+                <TextView
+                    android:id="@+id/fans_but"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:textSize="14sp"
+                    android:text="@string/fans_list_title"
+                    />
+                </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/focus_but_lay"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/focus_list_title_item_bg"
+                >
+                <TextView
+                    android:id="@+id/focus_but"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:textSize="14sp"
+                    android:text="@string/focus_list_title"
+                    />
+            </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>-->
+
+    <com.yeming.paopao.views.MySwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true"
+            />
+
+    </com.yeming.paopao.views.MySwipeRefreshLayout>
+
+</LinearLayout>

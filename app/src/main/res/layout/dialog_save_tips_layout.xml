@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_layout_bg"
+    android:id="@+id/save_tip_layout">
+
+    <TextView
+        android:id="@+id/titleTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextTheme1.tipstheme"
+        android:text="是否要保存修改的内容?"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#eeeeee"
+        android:layout_marginTop="25dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/but_lay"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/set_cancle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            style="@style/TextTheme1.tipstheme"
+            android:text="取消"
+            android:focusable="true"
+            android:gravity="center"
+            android:background="@drawable/login_button_selector"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:id="@+id/set_save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            style="@style/TextTheme1.tipstheme"
+            android:text="保存"
+            android:focusable="true"
+            android:gravity="center"
+            android:background="@drawable/login_button_selector"
+            android:layout_margin="15dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

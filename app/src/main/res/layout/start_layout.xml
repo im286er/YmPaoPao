@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/entrance1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/start_bottom_bg"/>
+
+    <TextView
+        android:id="@+id/imageTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:gravity="center_horizontal"
+        android:text="春光乍泄 © 堂堂炒栗子的"
+        android:textColor="#b3ffffff"
+        android:textSize="10sp"/>
+
+    <View
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_above="@id/imageTips"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/start_logo"/>
+
+    <!--<TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageTips"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Ym 泡泡"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        />-->
+</RelativeLayout>

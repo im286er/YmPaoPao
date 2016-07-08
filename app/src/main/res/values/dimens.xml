@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <drawable name="actionbar_back">#ef202020</drawable>
+    <drawable name="tab_selected">#ffe16b99</drawable>
+    <drawable name="tab_unselected">#33ffffff</drawable>
+    <drawable name="tab_selected_pressed">#ffe23176</drawable>
+    <drawable name="tab_unselected_pressed">#ffe16b99</drawable>
+    <drawable name="tab_selected_focused">#ff000000</drawable>
+    <drawable name="tab_unselected_focused">#22ffffff</drawable>
+    <drawable name="letf_draw_item_unpressed">#00000000</drawable>
+    <drawable name="letf_draw_item_pressed">#FF50597b</drawable>
+    <drawable name="drawer_exit_item_unpressed">#ffac2925</drawable>
+    <drawable name="drawer_exit_item_pressed">#ffd43f3a</drawable>
+</resources>

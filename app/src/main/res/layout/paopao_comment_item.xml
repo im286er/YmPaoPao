@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#FFFFFF">
+
+        <com.yeming.paopao.views.third.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/comment_item_user_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_user_monkey"
+            app:border_color="@color/green"
+            app:border_width="2dp"></com.yeming.paopao.views.third.CircleImageView>
+
+        <LinearLayout
+            android:id="@+id/comment_item_user_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/comment_item_user_icon"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/comment_item_user_icon"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/comment_item_user_name"
+                style="@style/TextTheme"
+                android:text="岁月抚伤" />
+
+            <TextView
+                android:id="@+id/comment_item_content_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_clock"
+                android:drawablePadding="2dp"
+                android:text="Small Text"
+                android:textColor="@color/green"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/comment_item_content_text"
+            style="@style/TextTheme"
+            android:layout_below="@id/comment_item_user_layout"
+            android:layout_toRightOf="@id/comment_item_user_icon"
+            android:padding="5dp"
+            android:text="十年之前，我不认识你 你不属于" />
+    </RelativeLayout>
+</LinearLayout>

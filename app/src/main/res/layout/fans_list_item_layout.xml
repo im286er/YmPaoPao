@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#FFFFFF">
+
+        <!--<com.yeming.paopao.views.third.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fans_item_user_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_user_monkey"
+            app:border_color="@color/green"
+            app:border_width="2dp"></com.yeming.paopao.views.third.CircleImageView>-->
+        <ImageView
+            android:id="@+id/fans_item_user_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/user_icon_default_main"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fans_item_user_icon"
+            android:layout_alignTop="@id/fans_item_user_icon"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/fans_item_user_icon"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fans_item_user_name"
+                style="@style/TextTheme"
+                android:padding="5dp"
+                android:text="岁月抚伤" />
+            <TextView
+                android:id="@+id/fans_item_sign_text"
+                style="@style/TextTheme"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:text="十年之前，我不认识你 你不属于" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yeming.paopao.aty.MapLocationActivity">
+    <item
+        android:id="@+id/action_location"
+        android:title="定位"
+        android:icon="@drawable/sm_mark_icon"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>

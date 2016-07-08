@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.yeming.paopao.fmt.PaoPaoFragment">
+    <item
+        android:id="@+id/action_edit"
+        android:title="发泡泡"
+        android:icon="@drawable/ic_edit"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu>
